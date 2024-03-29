@@ -1,0 +1,361 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.header{
+    height: 100vh;
+    
+    
+}
+
+#navbar-example2{
+	position: fixed !important;
+	background-color: #darkblue;
+	box-shadow: 0px 5px 10px lightblue;
+	position: fixed;
+	width: 100%;
+	right: 0;
+	top: 0;
+	text-align: center;
+
+}
+
+
+.navbar-brand{
+	color: white;
+}
+.navcolor_one{
+	color:  lightcyan;
+
+	padding-left: 37%;
+}
+
+body{
+	background-color: #343F4F;
+}
+
+.st{
+	text-decoration: none;
+	color: white;
+	padding-left: 500px;
+}
+
+#pills-home-tab,#pills-contact-tab,#pills-about-tab,#pills-profile-tab,#pills-skills-tab,#pills-experience-tab{
+	color: #edf2e1;
+
+}
+.nav-link{
+	color: white;
+}
+
+#navbar-example2{
+
+}
+
+.intro{
+	color: white;
+}
+
+.hero1 .hero-container {
+	position: relative;
+	z-index: 2;
+	min-width: 300px;
+}
+
+.hero1 {
+	width: 100%;
+	height: 100vh;
+	background: url("symum.jpg") top center;
+	background-size: cover;
+}   
+
+
+
+/*Progress Bar */
+
+.progress {
+	margin:20px auto;
+	padding:0;
+	width:80%;
+	height:30px;
+	overflow:hidden;
+	background:#e5e5e5;
+	border-radius:6px;
+
+}
+
+
+
+.bar {
+	position:relative;
+	float:left;
+	min-width:1%;
+	height:100%;
+	background:cornflowerblue;
+}
+
+.percent {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	margin:0;
+	font-family:tahoma,arial,helvetica;
+	font-size:12px;
+	color:white;
+}
+
+.percent:focus{
+        min-width: 150px;
+        width: auto;
+}
+#skills: hover{
+	width: 10%;
+	height: auto;
+
+}
+
+#bb{
+	width:  50%;
+}
+
+
+.progress:hover{
+	margin:20px auto;
+	padding:0;
+	width:100%;
+	height:40px;
+	overflow:hidden;
+	background:#e5e5e5;
+	border-radius:6px;
+}
+
+.ski{
+	color: ghostwhite;
+}
+/* -------------------------*/
+
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40,end),
+    blink-caret .75s step-end infinite;
+
+    color: ghostwhite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+
+
+
+/*--------------------- */
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
+}
+.wrapper{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts, .wr{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #343F4F;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(20) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+
+.wr{
+	color: darkblue;
+}
+.w{
+	font-weight: strong;
+	color: #323880;
+  font-size: 60px;
+  font-weight: 400;
+ font-size: 60px;
+  font-weight: 700;
+ text-shadow: 0 0 3px #FFF;
+}
+}
+
+
+#her{
+
+	width: 100%;
+  height: 100vh;
+  background: url("Facebook.jpg") top center;
+  background-size: cover;
+}
+
+
+#carouselExampleIndicators{
+	position: relative;
+	overflow: hidden !important;
+	z-index: 0;
+	border-radius: 15px;
+	opacity: 0.5;
+	overflow-wrap: inherit;
+}
+
+#leftc{
+	box-shadow: 5x 5x 10px #fff;
+
+}
+
+.button{
+	border-radius: 25px;
+	background-color: orange;
+	margin-top: 50px;
+	padding: 10px 30px;
+	color: blueviolet;
+	box-shadow: 5px 5px 10px #fff;
+	font-weight: 500;
+
+}
+.logo{
+	height: 50px;
+	padding: 2px 2px;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: darkseagreen;
+  text-align: center;
+  box-shadow:  5px 0px 10px #999;
+}
+
+.percent{
+	font-family: cursive;
+}
+*{
+	font-family: cursive;
+	
+
+}
+#her{
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+
+#her, #about{
+	width: 80%;
+	align-items: center;
+	align-content: center;
+	justify-content: safe center;
+
+}
+#a{
+	width: 30%;
+	float: left;
+	padding-right: 20px;
+}
+
+  #navbar-example2{
+  	float: none;
+  		
+
+  }
+  #a,#f,#c,#d{
+  	padding-left: 150px;
+  	width: 80%;
+  }
+  
+}
