@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 <!DOCTYPE html>
@@ -377,3 +378,6 @@
 
         </body>
         </html>
+=======
+# symum.github.io
+>>>>>>> parent of 30e4301 (Update README.md)
