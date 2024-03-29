@@ -1,1 +1,379 @@
 # symum.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SymUm</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="CSS/styles.css" rel="stylesheet">
+  <link rel = "icon" href = 
+"Photos/icon.png" 
+        type = "image/x-icon">
+</head>
+<body class="">
+  <header class="header">
+
+    
+
+
+      <div class="container mt-5 pt-5">
+      
+
+          </div>
+        
+<!--
+
+<div class="container mt-5 pt-5">
+           <nav class="navbar navbar-style" id="navbar-example2">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#micon">
+                            <span class="icon-bar">HELLO</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+                    <a href="" ><img src="TER.png" class="logo"></a>
+                </div>
+        <div class="collapse navbar-collapse" id="micon">
+            <ul class="nav navbar-nav navbar-right me">
+                <li><a href="">Home</a></li>
+                <li><a href="">Admission</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+            </div>
+        </nav>
+
+        </div>
+
+-->
+
+<!--
+  <nav id="navbar-example2"class="navbar navbar-expand-lg navbar-light " style="background-color: #43355c;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color:white;"><img src="icon.png" class="logo">   SymUm</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="color:red;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+-->
+
+
+        
+        
+        
+    
+
+
+
+
+
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div class="container mt-5 pt-5" id="her" >
+          <div class="row">
+            <div class="col-6" id="b" >
+
+              <h4 id="home"><img src = "Photos/symum1.jpg" alt="My photo"  class="rounded-circle" style="width: 70%;" alt="Avatar" /></h4>
+              <p></p></div>
+              <div class="col-6" id="a">
+
+                <div class="container mt-5 pt-5" ><h1 class="w">Md. Symum Hossain</h1></div>
+
+                <div class="wrapper">
+                  <div class ="static-txt">I'm a</div>
+                  <ul class="dynamic-txts">
+                    <li><span>Enthusiast</span></li>
+                    <li><span>Freelancer</span></li>
+                    <li><span>Bike Lover</span></li>
+                    <li><span>Student</span></li>
+
+                  </ul>
+                </div>
+
+                <h4><button class="button" style="width: 180px; height: 50px; " >Hire Me</button></h4>
+
+
+
+
+
+              </div>
+
+            </div></div>
+            <h4 id="about"><div class="container mt-5 pt-5"><div class="row">
+              <div class="col-6" id="c"><h1 style="color:floralwhite;" style="text-shadow: 5px 5px #fff;" >
+                I'm studing Computer Science & Engineering at Ahsanullah University Of Science and Technology.
+
+
+              </h1><button class="button">Resume</button></div>
+
+              <div class="col-6">
+                <h1><div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Photos/friends.jpg" class="d-block w-100" alt="aust_friends">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Photos/friends2.jpg" class="d-block w-100" alt="school_friends">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Photos/me.jpg" class="d-block w-100" alt="my photo">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div> </h1>
+              </div>
+            </div></div></h4><br>
+            <div id="experience"></div>
+            <p id="experience"><h1 id ="experience"class="bg-dark" style="text-align: center; font-size: 70px; font-family: sans-serif; color: lightgreen; background-color: ; margin-top: 35px; margin-bottom: 0px; box-shadow: 5px 5px 10px #fff;  text-shadow: 0px 0px 5px lightblue; width: 100%; align-content: center;">My Experiences</h1></p>
+            <h4 id=""><div class="container mt-5 pt-5 " id="experience">
+
+              <div class="row">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="Photos/TER.png" class="card-img-top" alt="youtube logo">
+      <div class="card-body">
+        <h5 class="card-title">YouTube Channel</h5>
+        <p class="card-text">I do youtubing sometimes. I have about 3 year of experience relate this field <a href="https://www.youtube.com/channel/UCyLD7yabZHq5n2SkoAqlTYg" style="text-decoration:none;">Click here</a></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Since 2019</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Photos/caretutor.jpg" class="card-img-top" alt="tutor">
+      <div class="card-body">
+        <h5 class="card-title">Tution</h5>
+        <p class="card-text">I have about 3 years of tutoring experiences.  <a href="https://caretutors.com/tutor/dashboard" style="text-decoration:none;">Click here</a></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Since 2020</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Photos/coding.png" class="card-img-top" alt="Bike">
+      <div class="card-body">
+        <h5 class="card-title">Coding</h5>
+        <p class="card-text">I do regular contest on Codeforces, HackerRank, Codechef etc. <a href="https://codeforces.com/profile/Trigger_On" style="text-decoration:none;">Click here</a></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Since 2020</small>
+      </div>
+    </div>
+  </div>
+</div>
+            </div></h4>
+            <p>...</p>
+
+            <div class="container mt-5 pt-5" id="skills">
+              <div class="row">
+                <p><h1 id="skills" class="bg-dark" style="text-align: center; font-size: 70px; font-family: sans-serif; color: lightgreen; background-color: ; margin-top: 35px; box-shadow: 5px 5px 10px #fff;  text-shadow: 0px 0px 5px lightblue; width: 100%; align-content: center;">Skills</h1></p>
+
+               <div class="col-6" id="d"><h1 class="ski" style="font-family: cursive;">My Skill is enriched with some programming level knowledge.  I'm also skilled with Front-End Design and also a bit Back-End also. I worked on HTML, CSS, BOOSTRAP, JS, REACT JS.</h1></div>
+               <div class="col-6" id="e">
+                <h4 id=""><div class="progress" role= "progress-bar">
+                  <div class="bar bg-danger" style="width:80%">
+                    <p class="percent">C++</p>
+                  </div>
+                </div></h4>
+
+                <h4 id="skills"><div class="progress">
+                  <div class="bar bg-primary" style="width:60%">
+                    <p class="percent">Java</p>
+                  </div>
+                </div></h4>
+
+                <h4 id="skills"><div class="progress">
+                  <div id ="bb" class="bar bg-success" style="width: 70%">
+                    <p class="percent">Python</p>
+                  </div>
+                </div></h4>
+
+                <h4 id="skills"><div class="progress">
+                  <div class="bar bg-info" style="width:40%">
+                    <p class="percent">Javascript</p>
+                  </div>
+                </div></h4>
+
+                <h4 id="skills"><div class="progress">
+                  <div class="bar bg-warning" style="width:25%">
+                    <p class="percent">React JS</p>
+                  </div>
+                </div></h4>
+
+                <h4 id="skills"><div class="progress">
+                  <div class="bar bg-secondary" style="width:10%">
+                    <p class="percent">PHP</p>
+                  </div>
+                </div></h4>
+
+              </div>
+
+
+            </div>
+          </div>
+          <p id="portfolio"><h1 class="col-sm-12 bg-dark" style="text-align: center; font-size: 70px; font-family: sans-serif; color: lightgreen; background-color: ; margin-top: 35px; box-shadow: 5px 5px 10px #fff;  text-shadow: 0px 0px 5px lightblue; width: 100%; align-content: center;">My Portfolio</h1></p> <br>
+          <div class="container mt-5 pt-5">
+          <h4 id=""><div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="Photos/triggo.PNG" class="card-img-top" alt="game project">
+                <div class="card-body">
+                  <h3 class="card-title">iGraphics Gaming Project</h3>
+                  <p class="card-text"><button class="button"><a href="https://www.youtube.com/watch?v=eq_Snb_B-qU&ab_channel=TechnoStates" style="text-decoration: none;">Click to See</a></button><p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Made in 2020</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="Photos/media.PNG" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Java Project (Media Player)</h5>
+                    <p class="card-text"><button class="button"><a href="https://www.youtube.com/watch?v=6NSTfHctbVw" style="text-decoration: none;">Click to See</a></button><p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Made in 2021</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="Photos/iphone.PNG" class="card-img-top" alt="Web Design">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Design Project</h5>
+                      <p class="card-text"><button class="button"><a href="https://www.youtube.com/watch?v=ofcs-l_q3SQ&t=32s" style="text-decoration: none;">Click to See</a></button><p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Made in 2019</small>
+                      </div>
+                    </div>
+                  </div>
+                </div></h4></div>
+                <p><h1 class="col-sm-12 bg-dark" style="text-align: center; font-size: 70px; font-family: sans-serif; color: lightgreen; background-color: ; margin-top: 35px; box-shadow: 5px 5px 10px #fff;  text-shadow: 0px 0px 5px lightblue; width: 100%; align-content: center;">Contact Me</h1></p> 
+
+                <div class="container mt-5 pt-5" style="justify-content-center">
+          <h4 id="contact"><div class="row row-cols-4 row-cols-md-2 g-6">
+            <div class="col-3">
+              
+              <img src = "Photos/symum.PNG" alt="contact photo"  class="rounded-circle" style="width: 70%; margin-bottom: 70px;" alt="Avatar" />
+            </div>
+
+            <div class="col-9" style="margin-top: 50px;">
+              
+              <h1><a href="https://www.facebook.com/md.symum.hossain"><img class="rounded-circle "src="Photos/facebook.png" alt="facebook" style="height: 60px; width: 80px;"></a><a href="https://www.facebook.com/md.symum.hossain" style="text-decoration:none; font-size: 30px; color: lightgreen; font-family: cursive; margin-left: 20px;">Md. Symum Hossain/facebook.com</a></h1>
+              <h1><a href="https://www.facebook.com/md.symum.hossain"><img src="Photos/twitter.png" alt="twitter" style="height: 50px; width: 80px;"></a><a href="https://www.facebook.com/md.symum.hossain" style="text-decoration:none; font-size: 30px; color: lightgreen; font-family: cursive; margin-left: 20px">Md. Symum Hossain/twitter.com</a></h1>
+
+              <h1><a href="https://www.linkedin.com/in/md-symum-hossain-3520521ab/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=bd"><img src="Photos/linkedin.png" alt="linkedin" style="height: 50px; width: 80px;"></a><a href="https://www.linkedin.com/in/md-symum-hossain-3520521ab/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=bd" style="text-decoration:none; font-size: 30px; color: lightgreen; font-family: cursive; margin-left: 20px">Md. Symum Hossain/linkedin.com</a></h1>
+
+
+              <h1><a href="https://github.com/SymumAust"><img src="Photos/github.png" alt="github" style="height: 50px; width: 80px;"></a><a href="https://github.com/SymumAust" style="text-decoration:none; font-size: 30px; color: lightgreen; font-family: cursive; margin-left: 20px">Md. Symum Hossain/github.com</a></h1>
+            </div></div>
+            
+
+          </div></h4></div>
+
+
+              </div>
+
+
+            </div>
+
+
+            <div class="container">
+    <div class="col-sm-12">
+        <div class="footer bg-dark">
+            <p><b>Copyright © 2020 SymUm , ( A Portfolio ). All Rights Reserved.</b></p>
+        </div>
+    </div>
+</div>
+
+  <nav id="navbar-example2" class="navbar navbar-light px-3 navbar-style " style="background-color: #43355c;">
+
+          <a class="navbar-brand" href="#" style="color:white;"><img src="Photos/icon.png" class="logo">   SymUm</a>
+          
+
+
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li
+              </ul>
+              </div>
+            </nav>
+          </header>
+
+          
+
+        </body>
+        </html>
